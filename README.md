@@ -1,5 +1,9 @@
 # Personal Platform Services
 
+- [Introduction](README.md)
+- [Build a server](build_a_server.md)
+- [Decommission a server](decommission_a_server.md)
+
 # Build a publicly accessible server like AWS
 
 This document helps build a server on your local machine so that you can use this as a Cloud server like AWS, Google Cloud or Azure and host as many applications as you want from the server. And this can all be done for **FREE** without any expensive third party intervention. The only hidden costs are the power bill, the internet bill and the cost for static IP which will have to be paid for running the local machine.
