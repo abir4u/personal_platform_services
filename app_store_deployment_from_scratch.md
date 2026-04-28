@@ -136,3 +136,6 @@ Now let's create the "store page" that users will see.
 Immutable Bundle ID: Once the app record is created, you cannot change the Bundle ID.
 SKU Restrictions: Your SKU must be unique among your own apps and cannot be edited later.
 Unique Name: If your desired name is taken, you will get an error. You may need to add a small keyword to make it unique.
+
+### Prepare Metadata: 
+Collect your marketing assets, including App Store screenshots for all required device sizes (iPhone and iPad), a description, keywords, and a mandatory Privacy Policy URL.
