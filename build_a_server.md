@@ -60,6 +60,13 @@ server {
     }
 }
 ```
+- **Extra Set up step for Intel Macbooks:** By default, Homebrew's Nginx configuration on Intel Macs does not automatically read files inside a custom `servers` folder unless told to do so.
+    - Open the main configuration file: `nano /usr/local/etc/nginx/nginx.conf`
+    - Add the below line right before the final closing curly brace `}`:
+```
+include /usr/local/etc/nginx/servers/*
+```
+ 
 **Test and Reload:**
 
 sudo nginx -t     # Checks for syntax errors
