@@ -40,8 +40,12 @@ brew services start nginx
 
 **Locate Configuration:** On modern Macs (Apple Silicon), the config is at `/opt/homebrew/etc/nginx/nginx.conf`. On Intel Macs, it is at `/usr/local/etc/nginx/nginx.conf`.
 - Create Server Blocks: Instead of editing the main file, create a new file for your app:
-- Create a directory if it doesn't exist: mkdir -p /opt/homebrew/etc/nginx/servers/
-- Create a file: nano /opt/homebrew/etc/nginx/servers/<subdomain name>.conf
+- Create a directory if it doesn't exist:
+    - Apple Silicon: `mkdir -p /opt/homebrew/etc/nginx/servers/`
+    - Intel: `mkdir -p /usr/local/etc/nginx/servers/`
+- Create a file:
+    - Apple Silicon: `nano /opt/homebrew/etc/nginx/servers/<subdomain name>.conf`
+    - Intel: `nano /usr/local/etc/nginx/servers/<subdomain name>.conf`
 
 Paste this Reverse Proxy template:
 ```
