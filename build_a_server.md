@@ -69,8 +69,10 @@ include /usr/local/etc/nginx/servers/*
  
 **Test and Reload:**
 
-sudo nginx -t     # Checks for syntax errors
+```
+sudo nginx -t
 sudo nginx -s reload
+```
 
 ## Step 3: Router Port Forwarding
 
